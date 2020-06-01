@@ -1,0 +1,58 @@
+// Slide-fade
+.slide-fade-enter-active {
+  transition: all 0.2s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+// Scale-fade
+.scale-fade-enter, .scale-fade-leave-active {
+  opacity: 0;
+}
+.scale-fade-enter .block, .scale-fade-leave-active .block {
+  -webkit-transform: scale(5.1);
+  transform: scale(5.1);
+}
+
+// Fade
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.4s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+}
+
+// List
+.list-enter-active, .list-leave-active {
+  transition: all 1s;
+}
+.list-enter, .list-leave-to /* .list-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.list-move {
+  transition: transform 0.3s;
+}
+
+
+// Background-masker
+@keyframes pulse{
+  0% {
+    background-color: rgba(165, 165, 165, 0.1)
+  }
+  50% {
+      background-color: rgba(165, 165, 165, 0.3)
+  }
+  100% {
+      background-color: rgba(165, 165, 165, 0.1)
+  }
+}
+.animated-background {
+  animation: pulse 1s infinite ease-in-out;
+  background-size: 200px 104px;
+}

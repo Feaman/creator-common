@@ -1,0 +1,41 @@
+{
+  "_from": "git+https://gitlab.icons8.com/photos/creator-common.git#master",
+  "_id": "icons8-creator-common@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/icons8-creator-common",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "icons8-creator-common@git+https://gitlab.icons8.com/photos/creator-common.git#master",
+    "name": "icons8-creator-common",
+    "escapedName": "icons8-creator-common",
+    "rawSpec": "git+https://gitlab.icons8.com/photos/creator-common.git#master",
+    "saveSpec": "git+https://gitlab.icons8.com/photos/creator-common.git#master",
+    "fetchSpec": "https://gitlab.icons8.com/photos/creator-common.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://gitlab.icons8.com/photos/creator-common.git#5abd4c3ab6a4b295ba39ecb8ed59d416c86da4a7",
+  "_spec": "icons8-creator-common@git+https://gitlab.icons8.com/photos/creator-common.git#master",
+  "_where": "C:\\Projects\\icons8\\photos\\creator-illustrations",
+  "author": {
+    "name": "Pavel Aksyonov",
+    "email": "elf.feaman@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "file-saver": "2.0.0",
+    "icons8-common": "git+https://gitlab-ci-token:HAycAxP-VccVvHisXnAG@gitlab.icons8.com/icons8/icons8-common#v0.1.49",
+    "konva": "2.5.1",
+    "nanoid": "2.0.0",
+    "vue-color": "2.4.4",
+    "vue-masonry-css": "1.0.3"
+  },
+  "deprecated": false,
+  "description": "Frontend base for creators",
+  "name": "icons8-creator-common",
+  "version": "1.0.0"
+}
