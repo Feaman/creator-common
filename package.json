@@ -30,7 +30,7 @@
     "file-saver": "2.0.0",
     "icons8-common": "git+https://gitlab-ci-token:HAycAxP-VccVvHisXnAG@gitlab.icons8.com/icons8/icons8-common#v0.1.49",
     "konva": "2.5.1",
-    "nanoid": "2.0.0",
+    "nanoid": "3.3.8",
     "vue-color": "2.4.4",
     "vue-masonry-css": "1.0.3"
   },
